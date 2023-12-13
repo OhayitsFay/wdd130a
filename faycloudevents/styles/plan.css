@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Domine&family=Roboto:ital@1&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lobster+Two&family=Roboto&family=Rock+Salt&display=swap');
 /* Set a background color for the whole page */
 .container {
     position: relative;
     max-width: 1200px; /* Maximum width */
-    margin: auto; /* Center it */
+    margin: 0 auto;
   }
   
 .container .content {
@@ -17,10 +17,11 @@
   }
 body{
     background-color: #ffff; /* Choose your preferred color */
-    font-family: 'Roboto', 'Rock Salt', 'Bodoni Moda';
+    font-family: 'Roboto', 'IM Fell English SC', 'Rock Salt', 'Lobster Two';
     font-size: 22px;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 /* Style the header section */
@@ -96,19 +97,21 @@ main section {
 }
 /* Style the main title */
 .home-title {
-    font-family: 'Domine', 'Roboto';
-    font-size: 2em;
+    font-family: 'Lobster Two', 'Roboto';
+    font-size: 3em;
     color: #d18b14; /* darkblue text color */
     margin-top: 60px;
     padding: 20px;
 }
 h4 {
+    font-family: 'IM Fell English SC', 'Roboto';
+    font-size: 1.2em;
     color: #14120f;
 }
 
 /* Style the "Book Now" button */
 .book {
-    font-size: 18px;
+    font-size: 20px;
     background-color: #14120f; /* brown background color */
     color: #d18b14; /* black text color */
     padding: 15px 30px;
@@ -157,8 +160,11 @@ h4 {
     grid-row: 1/2;
 }
 .about_msg h2 {
-    font-family: 'Rock Salt', 'Bodoni Moda';
+    font-family: 'Rock Salt', 'Roboto';
     color: #d18b14;
+}
+.about_msg h3 {
+    font-family: 'IM Fell English SC', 'Lobster Two';
 }
 .service1-card {
     padding: 20px;
@@ -204,7 +210,7 @@ h4 {
 }
 .planner {
     width: 500px;
-    margin-left: -50px;
+    margin-left: -70px;
     grid-column: 4/7;
     grid-row: 8/9;
     margin-top: -400px;
@@ -245,7 +251,7 @@ h2 {
     margin-top: 80px; 
 }
 .msg h2{
-    font-family: 'Rock Salt', 'Bodoni Moda';
+    font-family: 'Rock Salt', 'Lobster Two';
     color: #d18b14;
 }
 .msg-p {
@@ -297,7 +303,7 @@ footer .social img{
     grid-row: 1/2;
 }
 .sub_services h2 {
-    font-family: "Rock Salt";
+    font-family: 'Rock Salt', 'Roboto';
     color: #d18b14;
 }
 .our_services {
@@ -308,7 +314,7 @@ footer .social img{
     grid-row: 2/3;
 }
 .our_services h2{
-    font-family: "Rock salt";
+    font-family: 'Rock Salt', 'IM Fell English SC';
     color: #d18b14;
 }
 .venue-card {
@@ -443,7 +449,7 @@ footer .social img{
     grid-row: 1/2;
 }
 .contact_msg h2 {
-    font-family: 'Rock Salt', 'Roboto';
+    font-family: 'Rock Salt', 'Lobster';
     color: #d18b14;
 }
 
@@ -527,8 +533,6 @@ footer .social img{
     font-size: 1em;
     background-color: #d18b14;
   }
-  
-
 
 @media screen and (max-width: 1200px) {
     #hero, .home-grid {
